@@ -3,6 +3,8 @@
 This project demonstrates how to build a secure VPN hub using WireGuard on an AWS EC2 instance.  
 The VPN server acts as a cloud-based gateway, allowing remote devices and networks (e.g., my GL.iNet router) to connect securely without requiring a public IP at home.
 
+<img width="900" height="514" alt="image" src="https://github.com/user-attachments/assets/4a2d7ff0-1a91-4d60-8024-488cab82db1e" />
+
 ## Features
 - WireGuard server hosted on AWS (Ubuntu EC2 instance)
 - Supports router and mobile clients
