@@ -24,14 +24,13 @@ The VPN server acts as a cloud-based gateway, allowing remote devices and networ
 
 <img width="1683" height="891" alt="image" src="https://github.com/user-attachments/assets/d9cfcd7f-1536-4cef-9140-f693b4e99ba5" />
 
-   ```bash
    sudo apt update && sudo apt upgrade -y
    sudo apt install wireguard -y
 
 3. Generate Wireguard keys
-
-  ```bash
-  wg genkey | tee server_private.key | wg pubkey > server_public.key
-  wg genkey | tee router_private.key | wg pubkey > router_public.key
-  wg genkey | tee mobile_private.key | wg pubkey > mobile_public.key
+   
+   umask 077
+   wg genkey | tee server_private.key | wg pubkey > server_public.key
+   wg genkey | tee router_private.key | wg pubkey > router_public.key
+   wg genkey | tee mobile_private.key | wg pubkey > mobile_public.key
 
