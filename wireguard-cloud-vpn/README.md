@@ -19,16 +19,18 @@ The VPN server acts as a cloud-based gateway, allowing remote devices and networ
      <img width="1697" height="526" alt="image" src="https://github.com/user-attachments/assets/c4bd4cf8-877a-4858-9cc8-2046b5d078e7" />
 
 
-2. Install WireGuard: SSH using the generated key
+##  2. Install WireGuard: SSH using the generated key
 
 
 <img width="1683" height="891" alt="image" src="https://github.com/user-attachments/assets/d9cfcd7f-1536-4cef-9140-f693b4e99ba5" />
-
+   
+   ```bash
    sudo apt update && sudo apt upgrade -y
    sudo apt install wireguard -y
 
-3. Generate Wireguard keys
-   
+##  3. Generate Wireguard keys
+
+   ```bash
    umask 077
    wg genkey | tee server_private.key | wg pubkey > server_public.key
    wg genkey | tee router_private.key | wg pubkey > router_public.key
