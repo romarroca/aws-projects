@@ -27,6 +27,7 @@ The VPN server acts as a cloud-based gateway, allowing remote devices and networ
    ```bash
    sudo apt update && sudo apt upgrade -y
    sudo apt install wireguard -y
+   ```
 
 ##  3. Generate Wireguard keys
 
@@ -35,4 +36,7 @@ The VPN server acts as a cloud-based gateway, allowing remote devices and networ
    wg genkey | tee server_private.key | wg pubkey > server_public.key
    wg genkey | tee router_private.key | wg pubkey > router_public.key
    wg genkey | tee mobile_private.key | wg pubkey > mobile_public.key
+   ```
+
+
 
