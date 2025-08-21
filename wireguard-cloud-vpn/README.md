@@ -114,3 +114,8 @@ The VPN server acts as a cloud-based gateway, allowing remote devices and networ
 
      <img width="913" height="586" alt="image" src="https://github.com/user-attachments/assets/5d228627-378b-4969-a67d-6c35e310c88a" />
 
+
+# This is the router I am using
+
+<img width="542" height="516" alt="image" src="https://github.com/user-attachments/assets/9ad37f1d-8609-4408-9d08-ea3fa8400653" />
+
