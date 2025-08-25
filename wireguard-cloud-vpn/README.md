@@ -44,6 +44,8 @@ Network Topology
    ```
 
 ##  4. Configure Wireguard Server
+   sudo nano /etc/wireguard/wg0.conf
+
 
    ```bash
    [Interface]
